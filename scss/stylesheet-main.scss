@@ -1,0 +1,39 @@
+@import "html5";
+@import "mixins";
+
+@import "navbar";
+
+body
+{
+  border: 0;
+  padding: 0;
+  margin: 0;
+  
+  background: #331A40;
+}
+
+main#main-doc
+{
+  box-sizing: border-box;
+  
+  width: 60%;
+  min-height: 100vh;
+  
+  background: #211726;
+  
+  padding:
+  {
+    top: 5vh;
+    bottom: 20vh;
+    left: 12pt;
+    right: 12pt;
+  }
+  
+  margin:
+  {
+    top: 0;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+  }
+}
