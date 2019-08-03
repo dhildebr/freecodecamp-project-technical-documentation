@@ -1,4 +1,5 @@
 @import "html5";
+@import "colors";
 @import "mixins";
 
 @import "navbar";
@@ -9,7 +10,8 @@ body
   padding: 0;
   margin: 0;
   
-  background: #331A40;
+  background: $color-secondary;
+  font-size: 0;
 }
 
 main#main-doc
@@ -19,7 +21,7 @@ main#main-doc
   width: 60%;
   min-height: 100vh;
   
-  background: #211726;
+  background: $color-primary;
   
   padding:
   {
