@@ -38,4 +38,39 @@ main#main-doc
     left: 20%;
     right: 20%;
   }
+  
+  &>section.main-section
+  {
+    margin:
+    {
+      top: 0;
+      bottom: 5vh;
+      left: 0;
+      right: 0;
+    }
+    
+    header
+    {
+      color: $color-accent;
+      
+      font:
+      {
+        family: "Times New Roman", serif;
+        weight: 400;
+        size: 18pt;
+      }
+    }
+    
+    p
+    {
+      color: $color-accent;
+      
+      font:
+      {
+        family: "Times New Roman", serif;
+        weight: 400;
+        size: 12pt;
+      }
+    }
+  }
 }
