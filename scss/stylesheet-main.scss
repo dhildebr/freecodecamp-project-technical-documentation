@@ -41,12 +41,11 @@ main#main-doc
   
   &>section.main-section
   {
-    margin:
+    &:not(:last-of-type)
     {
-      top: 0;
-      bottom: 5vh;
-      left: 0;
-      right: 0;
+      border-bottom: 2px dotted $color-secondary;
+      padding-bottom: 18pt;
+      margin-bottom: 5vh;
     }
     
     header
@@ -62,6 +61,18 @@ main#main-doc
     }
     
     p
+    {
+      color: $color-accent;
+      
+      font:
+      {
+        family: "Times New Roman", serif;
+        weight: 400;
+        size: 12pt;
+      }
+    }
+    
+    li
     {
       color: $color-accent;
       
