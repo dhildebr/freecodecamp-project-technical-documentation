@@ -43,7 +43,7 @@ main#main-doc
   {
     &:not(:last-of-type)
     {
-      border-bottom: 2px dotted $color-secondary;
+      border-bottom: 2px dashed $color-secondary;
       padding-bottom: 18pt;
       margin-bottom: 5vh;
     }
