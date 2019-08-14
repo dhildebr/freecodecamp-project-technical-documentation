@@ -18,7 +18,7 @@ main#main-doc
 {
   box-sizing: border-box;
   
-  width: 60%;
+  width: 60vw;
   min-height: 100vh;
   
   background: $color-primary;
@@ -35,8 +35,8 @@ main#main-doc
   {
     top: 0;
     bottom: 0;
-    left: 20%;
-    right: 20%;
+    left: 20vw;
+    right: 20vw;
   }
   
   &>section.main-section
@@ -83,5 +83,13 @@ main#main-doc
         size: 16pt;
       }
     }
+  }
+  
+  @media(max-width: 1280px)
+  {
+    width: 100%;
+    margin: 0;
+    
+    border-top: 2px dashed $color-secondary;
   }
 }
